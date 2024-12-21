@@ -3,8 +3,6 @@ import numpy as np
 import requests
 import streamlit as st
 import matplotlib.pyplot as plt
-from datetime import datetime
-from concurrent.futures import ThreadPoolExecutor
 
 def load_data(file_path):
     """Загружает данные о температуре из CSV файла."""
